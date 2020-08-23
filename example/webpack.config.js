@@ -8,6 +8,9 @@
 const path = require('path');
 const fs = require('fs');
 const lib = path.resolve(__dirname, "lib");
+console.log(path.resolve(lib, "index.html"))
+
+if( !fs.existsSync(lib) ) fs.mkdirSync(lib)
 
 fs.writeFileSync(path.resolve(lib, "index.html"), `<!DOCTYPE html>
 <html>

@@ -1,0 +1,1583 @@
+{
+  "program": {
+    "fileInfos": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "signature": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
+        "signature": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/vscode-jsonrpc/lib/thenable.d.ts": {
+        "version": "9e526b48daf9ed82ee32a65b7a0b02e246a97fdab86ddd6d68802dd4b1ca34e6",
+        "signature": "9e526b48daf9ed82ee32a65b7a0b02e246a97fdab86ddd6d68802dd4b1ca34e6",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/base.d.ts": {
+        "version": "74619297b9e61e177519a153c0e00c661170c7b34bf3dbb0ceb64db9fe049726",
+        "signature": "74619297b9e61e177519a153c0e00c661170c7b34bf3dbb0ceb64db9fe049726",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "3b3ebb8c5bc86e0dce796a070c386d30b21241ff18efa252b3754066637015ad",
+        "signature": "3b3ebb8c5bc86e0dce796a070c386d30b21241ff18efa252b3754066637015ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/messages.d.ts": {
+        "version": "5b3cd8bfbeca39186a9c63170cbb29a7e4b5c69f5a321b5a2725f6dae633fa71",
+        "signature": "5b3cd8bfbeca39186a9c63170cbb29a7e4b5c69f5a321b5a2725f6dae633fa71",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/events.d.ts": {
+        "version": "268c82abfac6e4e67e1109b2e2262440bc0551e25aa74ecafce19e7fb41a8a8b",
+        "signature": "268c82abfac6e4e67e1109b2e2262440bc0551e25aa74ecafce19e7fb41a8a8b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts": {
+        "version": "29402e2e2b6f2d8ede6fd5810941c03273da2b974f90a28582f09b3ddfbe8e39",
+        "signature": "29402e2e2b6f2d8ede6fd5810941c03273da2b974f90a28582f09b3ddfbe8e39",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts": {
+        "version": "c7200e6c81352efbde45aac8677412f639a0f61438e311fe3f8a79ba7af13f37",
+        "signature": "c7200e6c81352efbde45aac8677412f639a0f61438e311fe3f8a79ba7af13f37",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/cancellation.d.ts": {
+        "version": "39b86da3e11ecd654e5ce829a304f1be3db0b803b7a37039ae731c6c1a2835b9",
+        "signature": "39b86da3e11ecd654e5ce829a304f1be3db0b803b7a37039ae731c6c1a2835b9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/linkedmap.d.ts": {
+        "version": "cc0ab71a27bb4cffe308853ae2b3f0874f698f8dee3e17169268339260884534",
+        "signature": "cc0ab71a27bb4cffe308853ae2b3f0874f698f8dee3e17169268339260884534",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts": {
+        "version": "ee689049f0f13efbb5cb9b06661955dedd3f0b7841da943f96bd53a9e5c928bb",
+        "signature": "ee689049f0f13efbb5cb9b06661955dedd3f0b7841da943f96bd53a9e5c928bb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts": {
+        "version": "a0c4ba7b6c496a6b5ca41b99964dc0dd4f1a2910d6618c1cf57872b33fab3cf7",
+        "signature": "a0c4ba7b6c496a6b5ca41b99964dc0dd4f1a2910d6618c1cf57872b33fab3cf7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-jsonrpc/lib/main.d.ts": {
+        "version": "2736438ef3e82070ded89657216844780da495e3e31a17a6f24ce02c4ee046a7",
+        "signature": "2736438ef3e82070ded89657216844780da495e3e31a17a6f24ce02c4ee046a7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts": {
+        "version": "837b46453b9d3797064d2bdf8712ba535b1065827fd83aab7200b0c494e615aa",
+        "signature": "837b46453b9d3797064d2bdf8712ba535b1065827fd83aab7200b0c494e615aa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts": {
+        "version": "cb100fd4d334cc5fa753d0178928949279fb43fbf21b4417a8745f01a53bbff7",
+        "signature": "cb100fd4d334cc5fa753d0178928949279fb43fbf21b4417a8745f01a53bbff7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/reader.d.ts": {
+        "version": "c672303372aefaf58aef148fdb99e589f64ab7785c0dc27f4708df8268b17897",
+        "signature": "c672303372aefaf58aef148fdb99e589f64ab7785c0dc27f4708df8268b17897",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/writer.d.ts": {
+        "version": "940d4bc9ba13e5ecfd9be31be922c766ae6297809a5b8c25404fc09e82daf6b3",
+        "signature": "940d4bc9ba13e5ecfd9be31be922c766ae6297809a5b8c25404fc09e82daf6b3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/connection.d.ts": {
+        "version": "21eb763371bf53c02e50c5dad05ac840da7cc93ab3c37ee48a27dd54b6b851a6",
+        "signature": "21eb763371bf53c02e50c5dad05ac840da7cc93ab3c37ee48a27dd54b6b851a6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts": {
+        "version": "cf98be64d0f6df2ed9f54ec94d2d5a4c30f30def46a6fccc7bb1e97d0bd3a754",
+        "signature": "cf98be64d0f6df2ed9f54ec94d2d5a4c30f30def46a6fccc7bb1e97d0bd3a754",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/logger.d.ts": {
+        "version": "d4bd8f4d3c613aed13e6062278bb034a31d8b82a2de0589d99921d5d143b795d",
+        "signature": "d4bd8f4d3c613aed13e6062278bb034a31d8b82a2de0589d99921d5d143b795d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/connection.d.ts": {
+        "version": "51b784279a18b792d85a5438fac2988fefdb7ae83da55299990e0abd95812c8f",
+        "signature": "51b784279a18b792d85a5438fac2988fefdb7ae83da55299990e0abd95812c8f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts": {
+        "version": "33df125e73dfdfecd3133a350b7dc8feba49d36344b15d898037225ce05545b8",
+        "signature": "33df125e73dfdfecd3133a350b7dc8feba49d36344b15d898037225ce05545b8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/typings/thenable.d.ts": {
+        "version": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871",
+        "signature": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts": {
+        "version": "d8331f3923cccbdf7f1648ccf7a6ce911f91096bbe95c6c2ea65c59a9c48edc2",
+        "signature": "d8331f3923cccbdf7f1648ccf7a6ce911f91096bbe95c6c2ea65c59a9c48edc2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts": {
+        "version": "17a93dce7e8e50ba578eceb61df5606fbcf9526c3036f0e52d83cee2061ca6b6",
+        "signature": "17a93dce7e8e50ba578eceb61df5606fbcf9526c3036f0e52d83cee2061ca6b6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts": {
+        "version": "bc45c7a4ab89c24c4b7b54e054bbe42ee8f1258727a7963d0fab6c676cc057a0",
+        "signature": "bc45c7a4ab89c24c4b7b54e054bbe42ee8f1258727a7963d0fab6c676cc057a0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts": {
+        "version": "2dc9b80a4881326f493561337e4fb08c76cc819be69f3ead9f7659579f5e607b",
+        "signature": "2dc9b80a4881326f493561337e4fb08c76cc819be69f3ead9f7659579f5e607b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/cancellation.d.ts": {
+        "version": "9d5a5b4c565b1af387e912ba6cd2d5a6eb063ba40e422e80da538b205404bc70",
+        "signature": "9d5a5b4c565b1af387e912ba6cd2d5a6eb063ba40e422e80da538b205404bc70",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/linkedmap.d.ts": {
+        "version": "51715257cd9f653982cb9bc28f9756b857333abcbdaced5481cf501236ec033a",
+        "signature": "51715257cd9f653982cb9bc28f9756b857333abcbdaced5481cf501236ec033a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/pipesupport.d.ts": {
+        "version": "be22ee20c2230fa19af4680094d4b83c1e4d6e63a03166cd1284111b289b608b",
+        "signature": "be22ee20c2230fa19af4680094d4b83c1e4d6e63a03166cd1284111b289b608b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/socketsupport.d.ts": {
+        "version": "f31eda5cecdade1062c17073ac9165f171b1b05f296a955c212fc3fc2c4b963b",
+        "signature": "f31eda5cecdade1062c17073ac9165f171b1b05f296a955c212fc3fc2c4b963b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts": {
+        "version": "7c9c716328561d3e2eb1b8c53ce315434d2523506d0c0befbcfc4d7d9e6effb2",
+        "signature": "7c9c716328561d3e2eb1b8c53ce315434d2523506d0c0befbcfc4d7d9e6effb2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts": {
+        "version": "124b6297f44f1bb9618f1d02a8467f5a545426a369ddca22670321caa36472e8",
+        "signature": "124b6297f44f1bb9618f1d02a8467f5a545426a369ddca22670321caa36472e8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts": {
+        "version": "357233e71f14a1fefceb99c56590ff8840092b099bc6cfe0c4c4187897651f4f",
+        "signature": "357233e71f14a1fefceb99c56590ff8840092b099bc6cfe0c4c4187897651f4f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts": {
+        "version": "c6e3d3f59249a67ad8e5a229db3c686b79e23551a7a66eb66a4ab69251c019e4",
+        "signature": "c6e3d3f59249a67ad8e5a229db3c686b79e23551a7a66eb66a4ab69251c019e4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts": {
+        "version": "ed3141993195890162085401d3acc403dbf68f77bfc681990ad6330608993ddb",
+        "signature": "ed3141993195890162085401d3acc403dbf68f77bfc681990ad6330608993ddb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.workspacefolders.d.ts": {
+        "version": "cc00d5395d2b62b7dce5345ad2fab5b2ede83d5d1981f72f836e070bf713f6ca",
+        "signature": "cc00d5395d2b62b7dce5345ad2fab5b2ede83d5d1981f72f836e070bf713f6ca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts": {
+        "version": "f24d5c76c2f2d5f5ce173be8a6e3440928db1b1582642f99ffec3c66d59cbac3",
+        "signature": "f24d5c76c2f2d5f5ce173be8a6e3440928db1b1582642f99ffec3c66d59cbac3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts": {
+        "version": "64ed0a65c618ad62afaf71f1c21c0c3306ba380647932ace38ab0d2fde14cbd0",
+        "signature": "64ed0a65c618ad62afaf71f1c21c0c3306ba380647932ace38ab0d2fde14cbd0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts": {
+        "version": "9c423840028ab2d53820f803248c411e971fb0791320ed8730afe95995230afd",
+        "signature": "9c423840028ab2d53820f803248c411e971fb0791320ed8730afe95995230afd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts": {
+        "version": "52b11894d6c59506378bb8f12dedeb3d99dbb0c75f39e798fa6364d36ae33f01",
+        "signature": "52b11894d6c59506378bb8f12dedeb3d99dbb0c75f39e798fa6364d36ae33f01",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts": {
+        "version": "e0f620459edc3770b7d6dd5b698c83f28d4363e79f2a97dd3ed93e688c5ae0ff",
+        "signature": "e0f620459edc3770b7d6dd5b698c83f28d4363e79f2a97dd3ed93e688c5ae0ff",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.d.ts": {
+        "version": "d4769d5cdefcb2e57ff3d2e341dee42e58578ed8393c72b82ff7fe992805cb7e",
+        "signature": "d4769d5cdefcb2e57ff3d2e341dee42e58578ed8393c72b82ff7fe992805cb7e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts": {
+        "version": "4f6a5d327f6726b8f0737c7be1b54278aeabc7e819b1a2f5db1e3b440361dd26",
+        "signature": "4f6a5d327f6726b8f0737c7be1b54278aeabc7e819b1a2f5db1e3b440361dd26",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts": {
+        "version": "cd6d4eaf3424122c7b8139070cad80f1729f5e439640c0b36277f8980be9728d",
+        "signature": "cd6d4eaf3424122c7b8139070cad80f1729f5e439640c0b36277f8980be9728d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.sematictokens.proposed.d.ts": {
+        "version": "247f77c69045d24cb0077727d9bf83babeb81cbd6a549513cb8526ba2ad82942",
+        "signature": "247f77c69045d24cb0077727d9bf83babeb81cbd6a549513cb8526ba2ad82942",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver-protocol/lib/main.d.ts": {
+        "version": "d4bb2cc7ae51064dcf5bf012c17f7847c8345787aa478aec997257a47a7363de",
+        "signature": "d4bb2cc7ae51064dcf5bf012c17f7847c8345787aa478aec997257a47a7363de",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-uri/lib/umd/index.d.ts": {
+        "version": "70a89bd2ccdf1fbc0b8005eb633d02c55e97d42cbbd1fd8ebc37694df22e4b4d",
+        "signature": "70a89bd2ccdf1fbc0b8005eb633d02c55e97d42cbbd1fd8ebc37694df22e4b4d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/services.d.ts": {
+        "version": "a849c2a05df766209b623fbf3b3f6486c11973e5f5dcc12865b11df55217b2b8",
+        "signature": "a849c2a05df766209b623fbf3b3f6486c11973e5f5dcc12865b11df55217b2b8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/disposable.d.ts": {
+        "version": "ba8bea87bc4eda86ba04b7e3e450a61553be7907923a647992723c7ca13a9dae",
+        "signature": "ba8bea87bc4eda86ba04b7e3e450a61553be7907923a647992723c7ca13a9dae",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/connection.d.ts": {
+        "version": "054ff35ac5d35d7bebc9e400bfcfa477230f9a1ba0d6896645ebb914c927a478",
+        "signature": "054ff35ac5d35d7bebc9e400bfcfa477230f9a1ba0d6896645ebb914c927a478",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/colorprovider.d.ts": {
+        "version": "4b5caf152a7e1832b45864f3aa9e3a3f7b9218f9474e2a614f539fc1616878a1",
+        "signature": "4b5caf152a7e1832b45864f3aa9e3a3f7b9218f9474e2a614f539fc1616878a1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/implementation.d.ts": {
+        "version": "13882d826fe49b53e94de745110b95b7ea3664a7740e95ab0eb5e06f92fb4c16",
+        "signature": "13882d826fe49b53e94de745110b95b7ea3664a7740e95ab0eb5e06f92fb4c16",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/typedefinition.d.ts": {
+        "version": "e608ddd711800fee70f462b61f3abd0698a16243e89da05d7f98ba3a9139a44f",
+        "signature": "e608ddd711800fee70f462b61f3abd0698a16243e89da05d7f98ba3a9139a44f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/configuration.d.ts": {
+        "version": "c1b675f85a014e652c383dfd53edb8d9ede19324bb76b1452b85c2a304575787",
+        "signature": "c1b675f85a014e652c383dfd53edb8d9ede19324bb76b1452b85c2a304575787",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/workspacefolders.d.ts": {
+        "version": "e8dcd342eb13026de8abf5ff2432319169943c61f2f9e7c260b6c5665cb52e65",
+        "signature": "e8dcd342eb13026de8abf5ff2432319169943c61f2f9e7c260b6c5665cb52e65",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/foldingrange.d.ts": {
+        "version": "52ca943436cce4fcb43f26854f1edb5e329aaa421225387dc4b66acff0bd8c1d",
+        "signature": "52ca943436cce4fcb43f26854f1edb5e329aaa421225387dc4b66acff0bd8c1d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/declaration.d.ts": {
+        "version": "a565002ce78a511059869b59fd2ca68df28ad1ed32172b0c0444c16e0b2d8712",
+        "signature": "a565002ce78a511059869b59fd2ca68df28ad1ed32172b0c0444c16e0b2d8712",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/selectionrange.d.ts": {
+        "version": "682c41c41d2106329d21f90b78fbd3e47e54dc4c69496c428f1f61e2862b9038",
+        "signature": "682c41c41d2106329d21f90b78fbd3e47e54dc4c69496c428f1f61e2862b9038",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/codeconverter.d.ts": {
+        "version": "7c49c8ae194be1edd9124ee629513801b3e67e06b17891916f3e1f710ceeff90",
+        "signature": "7c49c8ae194be1edd9124ee629513801b3e67e06b17891916f3e1f710ceeff90",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/protocolcompletionitem.d.ts": {
+        "version": "936bab3c0b2743adfc278efa0eb713c258b370607fac08cd3cfea31aa7fbc4c2",
+        "signature": "936bab3c0b2743adfc278efa0eb713c258b370607fac08cd3cfea31aa7fbc4c2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/protocolconverter.d.ts": {
+        "version": "98e277238575973abcdb7f5c6973a29229714fdbc1589b779518e7bcb051d476",
+        "signature": "98e277238575973abcdb7f5c6973a29229714fdbc1589b779518e7bcb051d476",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageclient/lib/client.d.ts": {
+        "version": "ae2088d16c7c709fdfd719a8ff811c2ee5f14fcbdb4d146631d6f33707e29b80",
+        "signature": "ae2088d16c7c709fdfd719a8ff811c2ee5f14fcbdb4d146631d6f33707e29b80",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/monaco-language-client.d.ts": {
+        "version": "d497a722a5c42bb623e4c3756161d222e4405635e144f56d5e81fe5ee45a1a79",
+        "signature": "d497a722a5c42bb623e4c3756161d222e4405635e144f56d5e81fe5ee45a1a79",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts": {
+        "version": "410ffcc1818d0c3bf6e2ff89b1903b0d722b4ac37ac295df511161ae505217db",
+        "signature": "410ffcc1818d0c3bf6e2ff89b1903b0d722b4ac37ac295df511161ae505217db",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/console-window.d.ts": {
+        "version": "97dce6f06e9f7064d76685f8cb71cbd3b9964c8fa74a6a6b25bb990e373439f3",
+        "signature": "97dce6f06e9f7064d76685f8cb71cbd3b9964c8fa74a6a6b25bb990e373439f3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-editor-core/monaco.d.ts": {
+        "version": "05c12e2d585b2fb8454dd4ab726546b5f4df529eadf655e65a71f25166905a63",
+        "signature": "05c12e2d585b2fb8454dd4ab726546b5f4df529eadf655e65a71f25166905a63",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts": {
+        "version": "36e0874aa3ffd9ffccf73280d88276824878cf998f13861090bca0c15c556cf0",
+        "signature": "36e0874aa3ffd9ffccf73280d88276824878cf998f13861090bca0c15c556cf0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts": {
+        "version": "5c5aef809e480f6c455eec2db84bfd4f95f89713446c001b63232994eafac299",
+        "signature": "5c5aef809e480f6c455eec2db84bfd4f95f89713446c001b63232994eafac299",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts": {
+        "version": "4972474e53a912ce32f9f596c4ef82f8c45753b75a0c1ebdea6db17a162c6ebd",
+        "signature": "4972474e53a912ce32f9f596c4ef82f8c45753b75a0c1ebdea6db17a162c6ebd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/monaco-services.d.ts": {
+        "version": "b53a58db051de5885db81704c9a90f0ba123ff9f66d327cc4bf77f80bd81fc40",
+        "signature": "b53a58db051de5885db81704c9a90f0ba123ff9f66d327cc4bf77f80bd81fc40",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/monaco-languageclient/lib/index.d.ts": {
+        "version": "be31169a1f04cda4acf23b8308d71945846e7911cc42fc0a896b38f804610b11",
+        "signature": "be31169a1f04cda4acf23b8308d71945846e7911cc42fc0a896b38f804610b11",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript-language-server/lib/ts-protocol.d.ts": {
+        "version": "43639da85cbf0be3fa40c0e4a0c8e3d5cf76013674679702de2a0a3d6f010e6b",
+        "signature": "43639da85cbf0be3fa40c0e4a0c8e3d5cf76013674679702de2a0a3d6f010e6b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/normalize-url/index.d.ts": {
+        "version": "bf02c789dbfce5f5288382e868fe3d7202eb4614fbca9e7b175a3422184a54b3",
+        "signature": "bf02c789dbfce5f5288382e868fe3d7202eb4614fbca9e7b175a3422184a54b3",
+        "affectsGlobalScope": false
+      },
+      "./src/client.ts": {
+        "version": "0f359ae9ce36473aa232c254f112dd9c772190767dd3ba447e0eb81da8402254",
+        "signature": "215973533e69a34fc39483093b49a74210dba3e2474add2b47b9f3621b029c16",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts": {
+        "version": "b7e1d4293c8919d1f7ccd0297817f44987cb73a38cd25011e4dbefbfa3eabf2c",
+        "signature": "b7e1d4293c8919d1f7ccd0297817f44987cb73a38cd25011e4dbefbfa3eabf2c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/server/launch.d.ts": {
+        "version": "6d102f8f29d048993c88192787a981e3a1209fd32205e2ce8f5542e2a5ab0085",
+        "signature": "6d102f8f29d048993c88192787a981e3a1209fd32205e2ce8f5542e2a5ab0085",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-ws-jsonrpc/lib/server/index.d.ts": {
+        "version": "139f0ab55f7ccd14b72dfa56b7a22f8c980d5c65126d4ddfb750f3df065a0fc2",
+        "signature": "139f0ab55f7ccd14b72dfa56b7a22f8c980d5c65126d4ddfb750f3df065a0fc2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver/typings/thenable.d.ts": {
+        "version": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871",
+        "signature": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/vscode-languageserver/lib/configuration.d.ts": {
+        "version": "929c410939daa84f588c54d9754bdc842152ddfd9e2f0b3eb0b0759141dcbbeb",
+        "signature": "929c410939daa84f588c54d9754bdc842152ddfd9e2f0b3eb0b0759141dcbbeb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts": {
+        "version": "65bcbe0fc3e5211f6703cbf326383beebf3e92196319f13a7b633df25b782d7b",
+        "signature": "65bcbe0fc3e5211f6703cbf326383beebf3e92196319f13a7b633df25b782d7b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver/lib/progress.d.ts": {
+        "version": "90879e371d83f9c1d4ca03f95f20bdb5155f18b84173ef09ae931d763621d331",
+        "signature": "90879e371d83f9c1d4ca03f95f20bdb5155f18b84173ef09ae931d763621d331",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver/lib/files.d.ts": {
+        "version": "2220f628e7f4663055426dc06e4b71525bb860ba66befa77cbb2a9c9878d7458",
+        "signature": "2220f628e7f4663055426dc06e4b71525bb860ba66befa77cbb2a9c9878d7458",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver/lib/callhierarchy.proposed.d.ts": {
+        "version": "e0caa678b299ad8d3a223f07e37ec58f94f6a35b779ad98ba8daf4d4341e66b8",
+        "signature": "e0caa678b299ad8d3a223f07e37ec58f94f6a35b779ad98ba8daf4d4341e66b8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver/lib/sematictokens.proposed.d.ts": {
+        "version": "51dc6412cdc078d70c51da1865d7da4b0c892513473283306be7e65d79f8845a",
+        "signature": "51dc6412cdc078d70c51da1865d7da4b0c892513473283306be7e65d79f8845a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/vscode-languageserver/lib/main.d.ts": {
+        "version": "762722b5a0312ad3601a00808daad1ccd4ec73b2b78c119af894ca0c6cd44270",
+        "signature": "762722b5a0312ad3601a00808daad1ccd4ec73b2b78c119af894ca0c6cd44270",
+        "affectsGlobalScope": false
+      },
+      "./src/launcher.ts": {
+        "version": "d61f658cad28cfd5bea2520e91e7cd07a5bc6e653238b86e64f1eaf7462669e8",
+        "signature": "393d0a4538d3b667046c5429baea2c359a854be8c5112e484ccaba959a7049ef",
+        "affectsGlobalScope": false
+      },
+      "./src/main.ts": {
+        "version": "163d19f3bf09fee9f0e719d5be29a290d32bd61235551cd992f14cee9fac9e40",
+        "signature": "02012d767e8e12c7b3847da780ee314f476de793102c0e956387efd1b0fa7fbc",
+        "affectsGlobalScope": true
+      },
+      "./src/monaco-editor-core.d.ts": {
+        "version": "f789c1a87795de397483229a1ace34150988b7b99686b69633824bce3573471d",
+        "signature": "f789c1a87795de397483229a1ace34150988b7b99686b69633824bce3573471d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/ws/index.d.ts": {
+        "version": "69dedd304dc1bd6dddb88e9c03502650a999e941179a2d328e1574c0231f8da3",
+        "signature": "69dedd304dc1bd6dddb88e9c03502650a999e941179a2d328e1574c0231f8da3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/qs/index.d.ts": {
+        "version": "adec64722d7da7581f6137c69426fc6e3859609e3c2ceeffb311f0be9a5ba4ae",
+        "signature": "adec64722d7da7581f6137c69426fc6e3859609e3c2ceeffb311f0be9a5ba4ae",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "343113a79319b75b3b735323d4c8667faed0a1fbe4ba696ecbd89eb3518ab244",
+        "signature": "343113a79319b75b3b735323d4c8667faed0a1fbe4ba696ecbd89eb3518ab244",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/serve-static/index.d.ts": {
+        "version": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
+        "signature": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/connect/index.d.ts": {
+        "version": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "signature": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/body-parser/index.d.ts": {
+        "version": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "signature": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/express/index.d.ts": {
+        "version": "46453f63ea6f9197248ffb80839f423b14f8d8d7dbb2c4902b8797b44d259859",
+        "signature": "46453f63ea6f9197248ffb80839f423b14f8d8d7dbb2c4902b8797b44d259859",
+        "affectsGlobalScope": false
+      },
+      "./src/server.ts": {
+        "version": "79388d9ebfb1c28cd6cb95a630d1742d69debe92b95e8cc3010af512e4025a97",
+        "signature": "dc564680890156170d57f244fb19cdef17124fc82d756ffa36a826a3ae20d1ef",
+        "affectsGlobalScope": false
+      },
+      "./src/startserver.ts": {
+        "version": "2a8516e19017362d73e5a8540e15428aba8bbb5e098e6e4ff4089f810296ee8e",
+        "signature": "172f030ca88d3077aee2f89f09ec1d376e2b6904de0e840fe964fea5a4925122",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/chai/index.d.ts": {
+        "version": "2fc02febc18eb7df45ce134505a190daeb2fad54c71d12f41a741d47c0cc5549",
+        "signature": "2fc02febc18eb7df45ce134505a190daeb2fad54c71d12f41a741d47c0cc5549",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/minimatch/index.d.ts": {
+        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/glob/index.d.ts": {
+        "version": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
+        "signature": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/minimist/index.d.ts": {
+        "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/mocha/index.d.ts": {
+        "version": "d93bdd7313bdc64d926cd1429bdb9a979037240e89995fddbc6817075bbfe502",
+        "signature": "d93bdd7313bdc64d926cd1429bdb9a979037240e89995fddbc6817075bbfe502",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "composite": true,
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "target": 1,
+      "module": 1,
+      "moduleResolution": 2,
+      "lib": [
+        "lib.es2015.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "alwaysStrict": true,
+      "strictNullChecks": true,
+      "skipLibCheck": true,
+      "plugins": [
+        {
+          "name": "tslint-language-service",
+          "configFile": "../tslint.json"
+        }
+      ],
+      "outDir": "./lib",
+      "rootDir": "./src",
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./node_modules/@types/body-parser/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/express-serve-static-core/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/range-parser/index.d.ts"
+      ],
+      "./node_modules/@types/express/index.d.ts": [
+        "./node_modules/@types/body-parser/index.d.ts",
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/serve-static/index.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/serve-static/index.d.ts": [
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/mime/index.d.ts"
+      ],
+      "./node_modules/@types/ws/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/connection.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/console-window.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/disposable.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/index.d.ts": [
+        "./node_modules/monaco-languageclient/lib/connection.d.ts",
+        "./node_modules/monaco-languageclient/lib/console-window.d.ts",
+        "./node_modules/monaco-languageclient/lib/disposable.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-language-client.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-services.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-language-client.d.ts": [
+        "./node_modules/monaco-languageclient/lib/connection.d.ts",
+        "./node_modules/vscode-languageclient/lib/client.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts",
+        "./node_modules/monaco-languageclient/lib/disposable.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-services.d.ts": [
+        "./node_modules/monaco-languageclient/lib/console-window.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/services.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-uri/lib/umd/index.d.ts"
+      ],
+      "./node_modules/typescript-language-server/lib/ts-protocol.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/cancellation.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/main.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/cancellation.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/thenable.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/client.d.ts": [
+        "./node_modules/vscode-languageclient/lib/codeconverter.d.ts",
+        "./node_modules/vscode-languageclient/lib/colorprovider.d.ts",
+        "./node_modules/vscode-languageclient/lib/configuration.d.ts",
+        "./node_modules/vscode-languageclient/lib/declaration.d.ts",
+        "./node_modules/vscode-languageclient/lib/foldingrange.d.ts",
+        "./node_modules/vscode-languageclient/lib/implementation.d.ts",
+        "./node_modules/vscode-languageclient/lib/protocolconverter.d.ts",
+        "./node_modules/vscode-languageclient/lib/selectionrange.d.ts",
+        "./node_modules/vscode-languageclient/lib/typedefinition.d.ts",
+        "./node_modules/vscode-languageclient/lib/workspacefolders.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/codeconverter.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/colorprovider.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/configuration.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/declaration.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/foldingrange.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/implementation.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/protocolcompletionitem.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/protocolconverter.d.ts": [
+        "./node_modules/vscode-languageclient/lib/protocolcompletionitem.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/selectionrange.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/typedefinition.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/workspacefolders.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/main.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.sematictokens.proposed.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.workspacefolders.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.sematictokens.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.workspacefolders.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/cancellation.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/cancellation.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/typings/thenable.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/pipesupport.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/socketsupport.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/callhierarchy.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/configuration.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/main.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/callhierarchy.proposed.d.ts",
+        "./node_modules/vscode-languageserver/lib/configuration.d.ts",
+        "./node_modules/vscode-languageserver/lib/files.d.ts",
+        "./node_modules/vscode-languageserver/lib/progress.d.ts",
+        "./node_modules/vscode-languageserver/lib/sematictokens.proposed.d.ts",
+        "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts",
+        "./node_modules/vscode-languageserver/typings/thenable.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/progress.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/sematictokens.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/connection.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/logger.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/logger.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/server/index.d.ts": [
+        "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/server/launch.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/server/launch.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/connection.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts": [
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/reader.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/writer.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/reader.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts": [
+        "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/writer.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts"
+      ],
+      "./src/client.ts": [
+        "./node_modules/@types/normalize-url/index.d.ts",
+        "./node_modules/monaco-languageclient/lib/index.d.ts",
+        "./node_modules/typescript-language-server/lib/ts-protocol.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts"
+      ],
+      "./src/launcher.ts": [
+        "./node_modules/vscode-languageserver/lib/main.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/server/index.d.ts"
+      ],
+      "./src/monaco-editor-core.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts"
+      ],
+      "./src/server.ts": [
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/ws/index.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts",
+        "./src/launcher.ts"
+      ],
+      "../node_modules/@types/glob/index.d.ts": [
+        "../node_modules/@types/minimatch/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./node_modules/@types/body-parser/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/express-serve-static-core/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/range-parser/index.d.ts"
+      ],
+      "./node_modules/@types/express/index.d.ts": [
+        "./node_modules/@types/body-parser/index.d.ts",
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/serve-static/index.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/serve-static/index.d.ts": [
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/mime/index.d.ts"
+      ],
+      "./node_modules/@types/ws/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/connection.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/console-window.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/disposable.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/index.d.ts": [
+        "./node_modules/monaco-languageclient/lib/connection.d.ts",
+        "./node_modules/monaco-languageclient/lib/console-window.d.ts",
+        "./node_modules/monaco-languageclient/lib/disposable.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-language-client.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-services.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts": [
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-language-client.d.ts": [
+        "./node_modules/monaco-languageclient/lib/connection.d.ts",
+        "./node_modules/vscode-languageclient/lib/client.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts",
+        "./node_modules/monaco-languageclient/lib/disposable.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-services.d.ts": [
+        "./node_modules/monaco-languageclient/lib/console-window.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts",
+        "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts",
+        "./node_modules/monaco-languageclient/lib/services.d.ts"
+      ],
+      "./node_modules/monaco-languageclient/lib/services.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-uri/lib/umd/index.d.ts"
+      ],
+      "./node_modules/typescript-language-server/lib/ts-protocol.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/cancellation.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/main.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/cancellation.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/thenable.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/client.d.ts": [
+        "./node_modules/vscode-languageclient/lib/codeconverter.d.ts",
+        "./node_modules/vscode-languageclient/lib/colorprovider.d.ts",
+        "./node_modules/vscode-languageclient/lib/configuration.d.ts",
+        "./node_modules/vscode-languageclient/lib/declaration.d.ts",
+        "./node_modules/vscode-languageclient/lib/foldingrange.d.ts",
+        "./node_modules/vscode-languageclient/lib/implementation.d.ts",
+        "./node_modules/vscode-languageclient/lib/protocolconverter.d.ts",
+        "./node_modules/vscode-languageclient/lib/selectionrange.d.ts",
+        "./node_modules/vscode-languageclient/lib/typedefinition.d.ts",
+        "./node_modules/vscode-languageclient/lib/workspacefolders.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/codeconverter.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/colorprovider.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/configuration.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/declaration.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/foldingrange.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/implementation.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/protocolcompletionitem.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/protocolconverter.d.ts": [
+        "./node_modules/vscode-languageclient/lib/protocolcompletionitem.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/selectionrange.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/typedefinition.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts"
+      ],
+      "./node_modules/vscode-languageclient/lib/workspacefolders.d.ts": [
+        "./node_modules/vscode-languageclient/lib/client.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/main.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.sematictokens.proposed.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.workspacefolders.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.sematictokens.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.workspacefolders.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/cancellation.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/cancellation.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/typings/thenable.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/pipesupport.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/socketsupport.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/callhierarchy.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/configuration.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/main.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/callhierarchy.proposed.d.ts",
+        "./node_modules/vscode-languageserver/lib/configuration.d.ts",
+        "./node_modules/vscode-languageserver/lib/files.d.ts",
+        "./node_modules/vscode-languageserver/lib/progress.d.ts",
+        "./node_modules/vscode-languageserver/lib/sematictokens.proposed.d.ts",
+        "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts",
+        "./node_modules/vscode-languageserver/typings/thenable.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/progress.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/sematictokens.proposed.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts": [
+        "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+        "./node_modules/vscode-languageserver/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/connection.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/events.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/logger.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/logger.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/server/index.d.ts": [
+        "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/server/launch.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/server/launch.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/connection.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts": [
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/connection.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/reader.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/writer.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/reader.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts": [
+        "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts"
+      ],
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/writer.d.ts": [
+        "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
+        "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+        "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts"
+      ],
+      "./src/launcher.ts": [
+        "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts"
+      ],
+      "./src/monaco-editor-core.d.ts": [
+        "./node_modules/monaco-editor-core/monaco.d.ts"
+      ],
+      "../node_modules/@types/glob/index.d.ts": [
+        "../node_modules/@types/minimatch/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/@types/body-parser/index.d.ts",
+      "./node_modules/@types/connect/index.d.ts",
+      "./node_modules/@types/express-serve-static-core/index.d.ts",
+      "./node_modules/@types/express/index.d.ts",
+      "./node_modules/@types/mime/index.d.ts",
+      "./node_modules/@types/node/base.d.ts",
+      "./node_modules/@types/node/ts3.2/index.d.ts",
+      "./node_modules/@types/normalize-url/index.d.ts",
+      "./node_modules/@types/qs/index.d.ts",
+      "./node_modules/@types/range-parser/index.d.ts",
+      "./node_modules/@types/serve-static/index.d.ts",
+      "./node_modules/@types/ws/index.d.ts",
+      "./node_modules/monaco-editor-core/monaco.d.ts",
+      "./node_modules/monaco-languageclient/lib/connection.d.ts",
+      "./node_modules/monaco-languageclient/lib/console-window.d.ts",
+      "./node_modules/monaco-languageclient/lib/disposable.d.ts",
+      "./node_modules/monaco-languageclient/lib/index.d.ts",
+      "./node_modules/monaco-languageclient/lib/monaco-commands.d.ts",
+      "./node_modules/monaco-languageclient/lib/monaco-converter.d.ts",
+      "./node_modules/monaco-languageclient/lib/monaco-language-client.d.ts",
+      "./node_modules/monaco-languageclient/lib/monaco-languages.d.ts",
+      "./node_modules/monaco-languageclient/lib/monaco-services.d.ts",
+      "./node_modules/monaco-languageclient/lib/monaco-workspace.d.ts",
+      "./node_modules/monaco-languageclient/lib/services.d.ts",
+      "./node_modules/typescript-language-server/lib/ts-protocol.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/cancellation.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/events.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/main.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/messages.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
+      "./node_modules/vscode-jsonrpc/lib/thenable.d.ts",
+      "./node_modules/vscode-languageclient/lib/client.d.ts",
+      "./node_modules/vscode-languageclient/lib/codeconverter.d.ts",
+      "./node_modules/vscode-languageclient/lib/colorprovider.d.ts",
+      "./node_modules/vscode-languageclient/lib/configuration.d.ts",
+      "./node_modules/vscode-languageclient/lib/declaration.d.ts",
+      "./node_modules/vscode-languageclient/lib/foldingrange.d.ts",
+      "./node_modules/vscode-languageclient/lib/implementation.d.ts",
+      "./node_modules/vscode-languageclient/lib/protocolcompletionitem.d.ts",
+      "./node_modules/vscode-languageclient/lib/protocolconverter.d.ts",
+      "./node_modules/vscode-languageclient/lib/selectionrange.d.ts",
+      "./node_modules/vscode-languageclient/lib/typedefinition.d.ts",
+      "./node_modules/vscode-languageclient/lib/workspacefolders.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/main.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/messages.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.callhierarchy.proposed.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.colorprovider.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.configuration.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.declaration.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.foldingrange.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.implementation.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.progress.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.selectionrange.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.sematictokens.proposed.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.typedefinition.d.ts",
+      "./node_modules/vscode-languageserver-protocol/lib/protocol.workspacefolders.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/cancellation.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/events.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/linkedmap.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/main.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagereader.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messages.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/messagewriter.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/pipesupport.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/lib/socketsupport.d.ts",
+      "./node_modules/vscode-languageserver-protocol/node_modules/vscode-jsonrpc/typings/thenable.d.ts",
+      "./node_modules/vscode-languageserver-types/lib/umd/main.d.ts",
+      "./node_modules/vscode-languageserver/lib/callhierarchy.proposed.d.ts",
+      "./node_modules/vscode-languageserver/lib/configuration.d.ts",
+      "./node_modules/vscode-languageserver/lib/files.d.ts",
+      "./node_modules/vscode-languageserver/lib/main.d.ts",
+      "./node_modules/vscode-languageserver/lib/progress.d.ts",
+      "./node_modules/vscode-languageserver/lib/sematictokens.proposed.d.ts",
+      "./node_modules/vscode-languageserver/lib/workspacefolders.d.ts",
+      "./node_modules/vscode-languageserver/typings/thenable.d.ts",
+      "./node_modules/vscode-uri/lib/umd/index.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/connection.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/disposable.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/logger.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/server/connection.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/server/index.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/server/launch.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/connection.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/index.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/reader.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/socket.d.ts",
+      "./node_modules/vscode-ws-jsonrpc/lib/socket/writer.d.ts",
+      "./src/client.ts",
+      "./src/launcher.ts",
+      "./src/main.ts",
+      "./src/monaco-editor-core.d.ts",
+      "./src/server.ts",
+      "./src/startserver.ts",
+      "../node_modules/@types/chai/index.d.ts",
+      "../node_modules/@types/glob/index.d.ts",
+      "../node_modules/@types/minimatch/index.d.ts",
+      "../node_modules/@types/minimist/index.d.ts",
+      "../node_modules/@types/mocha/index.d.ts",
+      "../node_modules/@types/normalize-package-data/index.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts"
+    ]
+  },
+  "version": "4.0.2"
+}
