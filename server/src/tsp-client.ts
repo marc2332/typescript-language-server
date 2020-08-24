@@ -106,7 +106,12 @@ export class TspClient {
         this.tsserverProc = tsserverPathIsModule
             ? cp.fork(tsserverPath, args, { silent: true })
             : cp.spawn(tsserverPath, args);
-        this.readlineInterface = readline.createInterface((this.tsserverProc.stdout as any), (this.tsserverProc.stdin as any), undefined);
+
+        this.readlineInterface = readline.createInterface(
+            this.tsserverProc.stdout!,
+            this.tsserverProc.stdin!,
+            undefined
+            );
         process.on('exit', () => {
             this.readlineInterface.close();
             this.tsserverProc.stdin?.destroy();

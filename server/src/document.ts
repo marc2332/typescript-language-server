@@ -68,13 +68,23 @@ export class LspDocument implements lsp.TextDocument {
     getLineStart(line: number): lsp.Position {
         return lsp.Position.create(line, 0);
     }
-    // lsp.TextDocumentContentChangeEvent
-    applyEdit(version: number, change: any): void {
+
+    applyEdit(version: number, change: lsp.TextDocumentContentChangeEvent): void {
+        type changeConfig = {
+            range: lsp.Range;
+            rangeLength?: number | undefined;
+            text: string;
+        }
+
         const content = this.getText();
         let newContent = change.text;
-        if (change.range) {
-            const start = this.offsetAt(change.range.start);
-            const end = this.offsetAt(change.range.end);
+        // ! fix error in lsp.TextDocumentContentChangeEvent type
+        const _change = change as changeConfig;
+
+        if (_change.range) {
+
+            const start = this.offsetAt(_change.range.start);
+            const end = this.offsetAt(_change.range.end);
             newContent = content.substr(0, start) + change.text + content.substr(end);
         }
         this.document = lsp.TextDocument.create(this.uri, this.languageId, version, newContent);

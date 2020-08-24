@@ -41,7 +41,6 @@ import { computeCallers, computeCallees } from './calls';
 
 export interface IServerOptions {
     logger: Logger
-    tsserverFallbackPath?: string;
     tsserverPath?: string;
     tsserverLogFile?: string;
     tsserverLogVerbosity?: string;
@@ -55,12 +54,10 @@ export class LspServer {
     private tspClient: TspClient;
     private diagnosticQueue: DiagnosticEventQueue;
     private logger: Logger;
-    private serverOptions: IServerOptions;
 
     private readonly documents = new LspDocuments();
 
     constructor(private options: IServerOptions) {
-        this.serverOptions = options
         this.logger = new PrefixingLogger(options.logger, '[lspserver]')
         this.diagnosticQueue = new DiagnosticEventQueue(
             diagnostics => this.options.lspClient.publishDiagnostics(diagnostics),
@@ -296,6 +293,11 @@ export class LspServer {
     }
 
     didChangeTextDocument(params: lsp.DidChangeTextDocumentParams): void {
+        type changeConfig = {
+            range: lsp.Range;
+            rangeLength?: number | undefined;
+            text: string;
+        }
         const { textDocument } = params;
         const file = uriToPath(textDocument.uri);
         this.logger.log('onDidChangeTextDocument', params, file);
@@ -312,19 +314,25 @@ export class LspServer {
             throw new Error(`Received document change event for ${textDocument.uri} without valid version identifier`);
         }
 
-        for (const change of (params.contentChanges)as any) {
+        for (const change of params.contentChanges) {
             let line, offset, endLine, endOffset = 0;
-            if (!change.range) {
+            const _change = change as changeConfig;
+
+            if (!_change.range) {
                 line = 1;
                 offset = 1;
                 const endPos = document.positionAt(document.getText().length);
                 endLine = endPos.line + 1;
                 endOffset = endPos.character + 1;
             } else {
-                line = change.range.start.line + 1;
-                offset = change.range.start.character + 1;
-                endLine = change.range.end.line + 1;
-                endOffset = change.range.end.character + 1;
+
+                line = _change.range.start.line + 1;
+
+                offset = _change.range.start.character + 1;
+
+                endLine = _change.range.end.line + 1;
+
+                endOffset = _change.range.end.character + 1;
             }
             this.tspClient.notify(CommandTypes.Change, {
                 file,
@@ -874,7 +882,11 @@ export class LspServer {
         if (event.event === EventTypes.SementicDiag ||
             event.event === EventTypes.SyntaxDiag ||
             event.event === EventTypes.SuggestionDiag) {
-            this.diagnosticQueue.updateDiagnostics(event.event, (event as any));
+
+            this.diagnosticQueue.updateDiagnostics(
+                event.event, event  as tsp.DiagnosticEvent
+                );
+
         } else {
             this.logger.log("Ignored event", {
                 "event": event.event

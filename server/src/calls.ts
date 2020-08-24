@@ -201,5 +201,6 @@ async function findReferences(tspClient: TspClient, args: tsp.FileSpan): Promise
     if (!result.body) {
         return [];
     }
-    return (result.body.refs as any);
+    //@ts-ignore
+    return result.body.refs;
 }
