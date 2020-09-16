@@ -437,7 +437,7 @@
         "affectsGlobalScope": false
       },
       "./src/client.ts": {
-        "version": "0f359ae9ce36473aa232c254f112dd9c772190767dd3ba447e0eb81da8402254",
+        "version": "bb6d1e33fe701da31449bf93033c73d218fd282ab1dccf37d3599be5b637a035",
         "signature": "215973533e69a34fc39483093b49a74210dba3e2474add2b47b9f3621b029c16",
         "affectsGlobalScope": false
       },
@@ -511,6 +511,11 @@
         "signature": "f789c1a87795de397483229a1ace34150988b7b99686b69633824bce3573471d",
         "affectsGlobalScope": false
       },
+      "../node_modules/@types/events/index.d.ts": {
+        "version": "acc248b90a16d95f2c53b598927967497ed4da2a7e6c9fc6006c5ed9dee25fd7",
+        "signature": "acc248b90a16d95f2c53b598927967497ed4da2a7e6c9fc6006c5ed9dee25fd7",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/ws/index.d.ts": {
         "version": "69dedd304dc1bd6dddb88e9c03502650a999e941179a2d328e1574c0231f8da3",
         "signature": "69dedd304dc1bd6dddb88e9c03502650a999e941179a2d328e1574c0231f8da3",
@@ -567,23 +572,13 @@
         "affectsGlobalScope": true
       },
       "../node_modules/@types/chai/index.d.ts": {
-        "version": "2fc02febc18eb7df45ce134505a190daeb2fad54c71d12f41a741d47c0cc5549",
-        "signature": "2fc02febc18eb7df45ce134505a190daeb2fad54c71d12f41a741d47c0cc5549",
+        "version": "52a93090ee3ac02e301bda99dd6a8e1945b7fb73d282a1a7c8c9625116b03480",
+        "signature": "52a93090ee3ac02e301bda99dd6a8e1945b7fb73d282a1a7c8c9625116b03480",
         "affectsGlobalScope": true
       },
-      "../node_modules/@types/minimatch/index.d.ts": {
-        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
-        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/glob/index.d.ts": {
-        "version": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
-        "signature": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/minimist/index.d.ts": {
-        "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
-        "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
+      "../node_modules/@types/fs-extra/index.d.ts": {
+        "version": "d5c03e5866400953db3ef99447cc29bc3bac083171e128fd87a25c09defd2503",
+        "signature": "d5c03e5866400953db3ef99447cc29bc3bac083171e128fd87a25c09defd2503",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/mocha/index.d.ts": {
@@ -591,9 +586,14 @@
         "signature": "d93bdd7313bdc64d926cd1429bdb9a979037240e89995fddbc6817075bbfe502",
         "affectsGlobalScope": true
       },
-      "../node_modules/@types/normalize-package-data/index.d.ts": {
-        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
-        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+      "../node_modules/@types/p-debounce/index.d.ts": {
+        "version": "6a81d025d8ff4e1dc686be40845e76fef0d34e9b9f741b8fd7bf537503aede79",
+        "signature": "6a81d025d8ff4e1dc686be40845e76fef0d34e9b9f741b8fd7bf537503aede79",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/tempy/index.d.ts": {
+        "version": "82b1778491c5f4ed6aa8eee162c536400190304b54b87057968f2281e0b3e4ad",
+        "signature": "82b1778491c5f4ed6aa8eee162c536400190304b54b87057968f2281e0b3e4ad",
         "affectsGlobalScope": false
       }
     },
@@ -1041,8 +1041,7 @@
         "./node_modules/vscode-ws-jsonrpc/lib/index.d.ts",
         "./src/launcher.ts"
       ],
-      "../node_modules/@types/glob/index.d.ts": [
-        "../node_modules/@types/minimatch/index.d.ts",
+      "../node_modules/@types/fs-extra/index.d.ts": [
         "./node_modules/@types/node/base.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts"
       ]
@@ -1451,8 +1450,7 @@
       "./src/monaco-editor-core.d.ts": [
         "./node_modules/monaco-editor-core/monaco.d.ts"
       ],
-      "../node_modules/@types/glob/index.d.ts": [
-        "../node_modules/@types/minimatch/index.d.ts",
+      "../node_modules/@types/fs-extra/index.d.ts": [
         "./node_modules/@types/node/base.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts"
       ]
@@ -1558,11 +1556,11 @@
       "./src/server.ts",
       "./src/startserver.ts",
       "../node_modules/@types/chai/index.d.ts",
-      "../node_modules/@types/glob/index.d.ts",
-      "../node_modules/@types/minimatch/index.d.ts",
-      "../node_modules/@types/minimist/index.d.ts",
+      "../node_modules/@types/events/index.d.ts",
+      "../node_modules/@types/fs-extra/index.d.ts",
       "../node_modules/@types/mocha/index.d.ts",
-      "../node_modules/@types/normalize-package-data/index.d.ts",
+      "../node_modules/@types/p-debounce/index.d.ts",
+      "../node_modules/@types/tempy/index.d.ts",
       "../node_modules/typescript/lib/lib.dom.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "../node_modules/typescript/lib/lib.es2015.core.d.ts",

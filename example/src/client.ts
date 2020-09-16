@@ -57,8 +57,8 @@ listen({
         // create and start the language client
         const languageClient = createLanguageClient(connection);
         languageClient.onReady().then(() => {
-            languageClient.onRequest(TypeScriptRenameRequest.type, params => {
-                editor.setPosition(p2m.asPosition(params.position));
+            languageClient.onRequest((TypeScriptRenameRequest.type as any), params => {
+                (editor.setPosition as any)(p2m.asPosition((params as any).position ));
                 editor.trigger('', 'editor.action.rename', {});
             });
         });
