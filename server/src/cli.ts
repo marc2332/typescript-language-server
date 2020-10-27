@@ -21,7 +21,7 @@ const program = new Command('typescript-language-server')
     .option('--tsserver-log-verbosity <tsserverLogVerbosity>', 'Specify a tsserver log verbosity (terse, normal, verbose). Defaults to `normal`.' +
       ' example: --tsserver-log-verbosity verbose')
     .option('--tsserver-path <path>', `Specify path to tsserver. example: --tsserver-path=${getTsserverExecutable()}`)
-    .option('--tsserver-fallback-path', 'Specify path to fallback tsserver. example: --tsserver-fallback-path=fallback_tsserver.js')
+    .option('--tsserver-fallback-path <path>', 'Specify path to fallback tsserver. example: --tsserver-fallback-path=fallback_tsserver.js')
     .parse(process.argv);
 
 if (!(program.stdio || program.socket || program.nodeIpc)) {
