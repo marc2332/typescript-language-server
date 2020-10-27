@@ -1,5 +1,6 @@
 [![Gitpod - Code Now](https://img.shields.io/badge/Gitpod-code%20now-blue.svg?longCache=true)](https://gitpod.io#https://github.com/theia-ide/typescript-language-server)
 [![Build Status](https://travis-ci.org/theia-ide/typescript-language-server.svg?branch=master)](https://travis-ci.org/theia-ide/typescript-language-server)
+[![IRC](https://img.shields.io/badge/IRC-%23typescript--language--server-1e72ff.svg?style=flat)](https://webchat.freenode.net/#typescript-language-server)
 
 # TypeScript Language Server
 [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) implementation for TypeScript wrapping `tsserver`.
@@ -23,7 +24,8 @@ Maintained by [TypeFox](https://typefox.io) and others.
 - [x] textDocument/documentHighlight
 - [x] textDocument/documentSymbol
 - [x] textDocument/executeCommand
-- [x] textDocument/format
+- [x] textDocument/formatting
+- [x] textDocument/rangeFormatting
 - [x] textDocument/hover
 - [x] textDocument/rename
 - [x] textDocument/references
@@ -56,7 +58,7 @@ typescript-language-server --stdio
     --log-level <log-level>                A number indicating the log level (4 = log, 3 = info, 2 = warn, 1 = error). Defaults to `2`.
     --socket <port>                        use socket. example: --socket=5000
     --tsserver-log-file <tsServerLogFile>  Specify a tsserver log file. example: --tsserver-log-file=ts-logs.txt
-    --tsserver-log-verbosity <verbosity>   Specify tsserver log verbosity (terse, normal, verbose). Defaults to `normal`. example: --tsserver-log-verbosity=verbose
+    --tsserver-log-verbosity <verbosity>   Specify tsserver log verbosity (off, terse, normal, verbose). Defaults to `normal`. example: --tsserver-log-verbosity=verbose
     --tsserver-path <path>                 Specify path to tsserver. example: --tsserver-path=tsserver
     -h, --help                             output usage information
 ```
